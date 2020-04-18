@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/crown.png">
+
+    <!-- got this from fontawesome.com -->
+    <script src="https://kit.fontawesome.com/1e2f90951b.js" crossorigin="anonymous"></script>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Grand Hotel</title>
+</head>
+<body>
+    <!-- navbar -->
+    <div class="navbar">
+        <input type="checkbox" class="checkbox" id="click" hidden>
+        <!-- input should be placed before elements you are going to select -->
+
+        <!-- sidebar -->
+        <div class="sidebar">
+            <label for="click">
+                <!-- so if i click on menu, the box will be checked -->
+                <div class="menu-icon">
+                    <div class="line line-1"></div>
+                    <div class="line line-2"></div>
+                    <div class="line line-3"></div>
+                </div>
+            </label>
+
+            <ul class="social-icons-list">
+                <li>
+                    <a href="a" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                </li>
+
+                <li>
+                    <a href="a" class="social-link"><i class="fab fa-twitter"></i></a>
+                </li>
+
+                <li>
+                    <a href="a" class="social-link"><i class="fab fa-google-plus-g"></i></a>
+                </li>
+
+                <li>
+                    <a href="a" class="social-link"><i class="fab fa-instagram"></i></a>
+                </li>
+            </ul>
+
+            <div class="year">
+                <p>2020</p>
+            </div>
+        </div>
+        <!-- end of sidebar -->
+        <!-- navigation -->
+        <nav class="navigation">
+            <div class="navigation-header">
+                <h1 class="navigation-heading">Grand Hotel</h1>
+                <form class="navigation-search">
+                    <input type="text" class="navigation-search-input" placeholder="Search...">
+                    <button class="navigation-search-btn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+
+            <ul class="navigation-list">
+                <li class="navigation-item">
+                    <a href="a" class="navigation-link">home</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="a" class="navigation-link">about us</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="a" class="navigation-link">rooms</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="a" class="navigation-link">events</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="a" class="navigation-link">customers</a>
+                </li>
+                <li class="navigation-item">
+                    <a href="a" class="navigation-link">contact</a>
+                </li>
+            </ul>
+
+            <div class="copyright">
+                <p>&copy; 2020. Grand Hotel. All Rights Reserved.</p>
+            </div>
+        </nav>
+        <!-- end of navigation -->
+    </div>
+    <!-- end of navbar -->
+
+    <!-- header -->
+    <header class="header">
+        <div class="brand">
+            <div>
+                <img src="img/crown.png" width="80px">
+            </div>
+            <h3 class="hotel-heading">Grand Hotel</h3>
+        </div>
+
+        <div class="banner">
+            <h1 class="banner-heading">Welcome to Grand Hotel</h1>
+            <p class="banner-paragraph">Make your life luxurious</p>
+            <button class="banner-button">Check Out</button>
+        </div>
+        
+    </header>
+    <!-- end of header -->
+
+    <!-- about us -->
+    <section class="about-us">
+        <div class="about-us-content">
+            <h3 class="about-us-heading">
+                About Us
+            </h3>
+            <div class="underline">
+                <div class="small-underline"></div>
+                <div class="big-underline"></div>
+            </div>
+            <h3 class="about-us-subheading">
+                Grand Hotel
+            </h3>
+            <p class="about-us-paragraph">
+                The hotel has 500 guest rooms, 4 Western and Chinese gourmet restaurants, and large banquet halls offering a wide range of different luxurious cuisines. Located in the city’s vantage point, Yuanshan, the Grand Hotel offers a great view of the prosperous city by day and an all-enveloping serenity at night. Over here, time and space expands and becomes one, while the classic meshes with the contemporary.
+            </p>
+            <button class="about-us-button">
+                Read More
+                <i class="fas fa-angle-double-right button-arrow"></i>
+            </button>
+        </div>
+
+        <div class="about-us-images">
+            <img src="img/about-us-img-1.jpeg" class="images image-1">
+            <img src="img/about-us-img-2.jpeg" class="images image-2">
+            <img src="img/about-us-img-3.jpeg" class="images image-3">
+            <img src="img/about-us-img-4.jpeg" class="images image-4">
+        </div>
+    </section>
+    <!-- end of about us -->
+
+    <!-- rooms -->
+    <section class="rooms">
+        <div class="common-header">
+            <h1 class="common-heading">Rooms in Grand Hotel</h1>
+            <div class="underline">
+                <div class="small-underline"></div>
+                <div class="big-underline"></div>
+            </div>
+        </div>
+
+        <div class="rooms-cards-wrapper">
+            <div class="room-card">
+                <img src="img/single-room.jpeg" class="room-image">
+                <div class="room-card-content">
+                    <h4 class="room-card-heading">Single Room</h4>
+                    <p class="room-card-paragraph">
+                        Best of its kind. Provide you an ideal sanctuary to lay down and rest.
+                    </p>
+                    <p class="room-price">$99.00</p>
+                    <button class="room-card-button">
+                        Book Now
+                        <i class="fas fa-angle-double-right button-arrow"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="room-card">
+                <img src="img/double-room.jpeg" class="room-image">
+                <div class="room-card-content">
+                    <h4 class="room-card-heading">Double Room</h4>
+                    <p class="room-card-paragraph">
+                        Compact and cozy featuring everything necessary for a comfortable stay : 1 double bed, complimentary WiFi, TV, a work desk and a private bathroom with shower.
+                    </p>
+                    <p class="room-price">$199.00</p>
+                    <button class="room-card-button">
+                        Book Now
+                        <i class="fas fa-angle-double-right button-arrow"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="room-card">
+                <img src="img/lux.jpeg" class="room-image">
+                <div class="room-card-content">
+                    <h4 class="room-card-heading">Luxury Room</h4>
+                    <p class="room-card-paragraph">
+                        If you like to treat yourself to a touch of luxury once in a while, the Grand Hotel offers stunning open plan luxury rooms with our Executive King Luxury Room. Exquisitely furnished featuring a spacious bedroom where you’ll find our exclusive custom-designed, locally made Mayfair King Size bed, writing desk and media hub, plus additional benefits to enjoy.
+                    </p>
+                    <p class="room-price">$299.00</p>
+                    <button class="room-card-button">
+                        Book Now
+                        <i class="fas fa-angle-double-right button-arrow"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="room-card">
+                <img src="img/vip.jpeg" class="room-image">
+                <div class="room-card-content">
+                    <h4 class="room-card-heading">VIP Room</h4>
+                    <p class="room-card-paragraph">
+                        Our VIP room is designed with class and comfort to offer top standard accommodation to those seeking bigger space, king size bed, affordable luxury and maximum comfort. Its luminous design evokes the feeling of warmth and luxury. There is a cozy seating area with upholstered lounge sofa and table where guests can relax with a nice flat screen television and DVD player with variety of Hollywood movies.
+                    </p>
+                    <p class="room-price">$599.00</p>
+                    <button class="room-card-button">
+                        Book Now
+                        <i class="fas fa-angle-double-right button-arrow"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="rooms-button-wrapper">
+            <button class="rooms-button">Check All Rooms</button>
+        </div>
+
+    </section>
+    <!-- end of rooms -->
+
+    <!-- customers -->
+    <section class="customers">
+        <div class="common-header">
+            <h1 class="common-heading">Customers Opinion</h1>
+            <div class="underline">
+                <div class="small-underline"></div>
+                <div class="big-underline"></div>
+            </div>
+        </div>
+
+        <p class="customers-paragraph">
+            Word of appreciation from our customers.
+        </p>
+
+        <div class="customers-card-wrapper">
+            <div class="customer-card">
+                <div class="customer-image-wrapper">
+                    <img src="img/customer-1.jpeg" class="customer-image">
+                </div>
+                <div class="customer-info">
+                    <h3 class="customer-fullname">
+                        Helen Doe
+                    </h3>
+                    <p class="customer-paragraph-1">
+                        Happy Customer
+                    </p>
+                    <p class="customer-paragraph-2">
+                        Bahut neek raahe hotel. maujiayein h dui teen din dhang se re. paisa bahut levat raahe maalik baaki sab badhiya.
+                    </p>
+                </div>
+            </div>
+
+            <div class="customer-card">
+                <div class="customer-image-wrapper">
+                    <img src="img/customer-2.jpeg" class="customer-image">
+                </div>
+                <div class="customer-info">
+                    <h3 class="customer-fullname">
+                            Monica Smith
+                        </h3>
+                    <p class="customer-paragraph-1">
+                            Happy Customer
+                    </p>
+                    <p class="customer-paragraph-2">
+                            Bahut neek raahe hotel. maujiayein h dui teen din dhang se re. paisa bahut levat raahe maalik baaki sab badhiya.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of customers -->
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="main-part">
+            <div class="footer-list-wrapper">
+                <h3 class="footer-heading">Grand Hotel</h3>
+                <ul class="footer-list">
+                    <li class="footer-list-item">
+                        <a href="a" class="footer-list-link">
+                            support@jhumri-talaiya.com
+                        </a>
+                    </li>
+
+                    <li class="footer-list-item">
+                        <a href="a" class="footer-list-link">
+                            Tararararampur.
+                        </a>
+                    </li>
+
+                    <li class="footer-list-item">
+                        <a href="a" class="footer-list-link">
+                            Tel: +991691696969
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-list-wrapper">
+                <h3 class="footer-heading">Explore</h3>
+                <ul class="footer-list">
+                    <li class="footer-list-item">
+                        <a href="a" class="footer-list-link">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="footer-list-item">
+                        <a href="a" class="footer-list-link">
+                            About Us
+                        </a>
+                    </li>
+
+                    <li class="footer-list-item">
+                        <a href="a" class="footer-list-link">
+                            Rooms
+                        </a>
+                    </li>
+
+                    <li class="footer-list-item">
+                        <a href="a" class="footer-list-link">
+                            Events
+                        </a>
+                    </li>
+
+                    <li class="footer-list-item">
+                        <a href="a" class="footer-list-link">
+                            Customers
+                        </a>
+                    </li>
+
+                    <li class="footer-list-item">
+                        <a href="a" class="footer-list-link">
+                            Content
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contact">
+                <h3 class="footer-heading">Contact</h3>
+                <p>Sign Up for News</p>
+                <form class="footer-form">
+                    <input type="text" class="footer-input" placeholder="Your Email...">
+                    <button class="footer-button">Sign Up</button>
+                </form>
+            </div>
+
+            <div class="gallery">
+                <h3 class="footer-heading">Gallery</h3>
+                <div class="gallery-images">
+                    <div class="gallery-image-wrapper">
+                        <img src="img/gallery-img-1.jpeg" class="footer-image">
+                    </div>
+
+                    <div class="gallery-image-wrapper">
+                        <img src="img/gallery-img-2.jpeg" class="footer-image">
+                    </div>
+
+                    <div class="gallery-image-wrapper">
+                        <img src="img/gallery-img-3.jpeg" class="footer-image">
+                    </div>
+
+                    <div class="gallery-image-wrapper">
+                        <img src="img/gallery-img-4.jpeg" class="footer-image">
+                    </div>
+
+                    <div class="gallery-image-wrapper">
+                        <img src="img/gallery-img-5.jpeg" class="footer-image">
+                    </div>
+
+                    <div class="gallery-image-wrapper">
+                        <img src="img/gallery-img-6.jpeg" class="footer-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="creator-part">
+            <div class="copyright-text">
+                <p>Copyright &copy; Grand Hotel. All Rights Reserved</p>
+            </div>
+
+            <div class="text-right">
+                <p>Made with <i class="fas fa-heart"></i> by <span>
+                    CodeAndCreate
+                </span></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- end of footer -->
+
+</body>
+</html>
